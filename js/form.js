@@ -4,4 +4,5 @@ btn.addEventListener("click", getinfo)
 function getinfo(ev){
 ev.preventDefault()
 console.log(fileinfo.files[0])
+
 }
